@@ -3369,7 +3369,6 @@ GameObject:
   - component: {fileID: 167554756}
   - component: {fileID: 167554755}
   - component: {fileID: 167554754}
-  - component: {fileID: 167554753}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3385,47 +3384,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167554751}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2069016, y: -4.1076, z: 43.457054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.1176, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1371963283}
-  m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
---- !u!114 &167554753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167554751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &167554754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4256,6 +4221,7 @@ GameObject:
   - component: {fileID: 253303346}
   - component: {fileID: 253303345}
   - component: {fileID: 253303344}
+  - component: {fileID: 253303347}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -4301,14 +4267,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253303343}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.2069016, y: -2.99, z: 43.457054}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1371963283}
+  - {fileID: 1797552895}
   m_Father: {fileID: 468237629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &253303347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253303343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &253701238 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7677146391431892029, guid: 7ac0f4727b8b02d4b8fd471d4dc47304, type: 3}
@@ -7917,15 +7918,15 @@ MonoBehaviour:
   - position: {x: 8.646736, y: 0, z: 13.362156}
     roll: 0
   - position: {x: 9.4364195, y: 0, z: 20.583342}
-    roll: 0
+    roll: -1.77
   - position: {x: 13.19248, y: 0, z: 26.929226}
-    roll: 0
+    roll: -5.71
   - position: {x: 24.56655, y: 0, z: 28.942617}
     roll: 0
   - position: {x: 38.473408, y: 0, z: 27.330261}
-    roll: 0
+    roll: -2.22
   - position: {x: 42.74844, y: 0, z: 16.82862}
-    roll: 0
+    roll: -4.72
   - position: {x: 43.109093, y: 0, z: 7.830309}
     roll: 0
   - position: {x: 42.73433, y: 0, z: -0.09177196}
@@ -7933,9 +7934,9 @@ MonoBehaviour:
   - position: {x: 43.129036, y: 0, z: -9.395151}
     roll: 0
   - position: {x: 42.49413, y: 0, z: -15.8269005}
-    roll: 0
+    roll: -3.21
   - position: {x: 39.480255, y: 0, z: -20.261868}
-    roll: 0
+    roll: -6.29
   - position: {x: 34.656155, y: 0, z: -21.975021}
     roll: 0
   - position: {x: 28.284483, y: 0, z: -22.482395}
@@ -7947,51 +7948,51 @@ MonoBehaviour:
   - position: {x: 6.178376, y: 0, z: -22.892756}
     roll: 0
   - position: {x: 0.44033527, y: 0, z: -22.693583}
-    roll: 0
+    roll: -2.22
   - position: {x: -4.881262, y: 0, z: -20.331955}
-    roll: 0
+    roll: -4.93
   - position: {x: -8.627415, y: 0, z: -15.147241}
-    roll: 0
+    roll: -10.79
   - position: {x: -7.8783417, y: 0, z: -8.923753}
-    roll: 0
+    roll: -12.53
   - position: {x: -4.3289747, y: 0, z: -4.8473344}
-    roll: 0
+    roll: -7.3
   - position: {x: 0.92173314, y: 7.943116e-11, z: -3.405771}
-    roll: 0
+    roll: -2.2
   - position: {x: 6.5835266, y: 0, z: -2.4438906}
-    roll: 0
+    roll: 5.78
   - position: {x: 9.299092, y: -7.943116e-11, z: 2.135637}
-    roll: 0
+    roll: 7.88
   - position: {x: 9.188442, y: -1.5886233e-10, z: 7.6334324}
     roll: 0
   - position: {x: 11.597968, y: -2.382935e-10, z: 11.9189625}
-    roll: 0
+    roll: -16.34
   - position: {x: 17.330673, y: -3.1772468e-10, z: 12.74074}
-    roll: 0
+    roll: -14.5
   - position: {x: 22.56584, y: -3.9715586e-10, z: 11.428547}
-    roll: 0
+    roll: -9.5
   - position: {x: 26.839584, y: -4.7658705e-10, z: 8.4853}
-    roll: 0
+    roll: 2.33
   - position: {x: 28.52923, y: -5.5601823e-10, z: 3.8827693}
-    roll: 0
-  - position: {x: 27.564508, y: -6.354494e-10, z: -0.108745694}
-    roll: 0
-  - position: {x: 27.1068, y: -7.148806e-10, z: -6.196684}
-    roll: 0
-  - position: {x: 27.761215, y: -7.943118e-10, z: -16.540976}
-    roll: 0
+    roll: -7.48
+  - position: {x: 27.527393, y: -6.354494e-10, z: -0.19168413}
+    roll: 3.88
+  - position: {x: 27.37402, y: -7.148806e-10, z: -6.2247624}
+    roll: 1.81
+  - position: {x: 28.203228, y: -7.943118e-10, z: -15.783497}
+    roll: 10.13
   - position: {x: 32.50453, y: -8.7374297e-10, z: -22.627228}
-    roll: 0
+    roll: 6.31
   - position: {x: 39.250866, y: -9.531742e-10, z: -19.840067}
-    roll: 0
+    roll: 13.36
   - position: {x: 42.62102, y: -0.0000000010326054, z: -13.924382}
-    roll: 0
+    roll: 2.18
   - position: {x: 43.485973, y: -0.0000000011120367, z: -7.2059374}
     roll: 0
   - position: {x: 43.591034, y: -0.0000000011914679, z: -0.45511746}
     roll: 0
   - position: {x: 43.433475, y: -0.0008192075, z: 5.005316}
-    roll: 0
+    roll: 3.97
   - position: {x: 41.5526, y: 0.21060216, z: 7.8604455}
     roll: 0
 --- !u!4 &466372688
@@ -24509,7 +24510,7 @@ Transform:
   m_GameObject: {fileID: 1371963282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: -0, y: 1, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26419,7 +26420,7 @@ Transform:
   m_GameObject: {fileID: 1487281515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1164908, y: 2.2739317, z: 5.3380423}
+  m_LocalPosition: {x: 2.1164908, y: 3.02, z: 5.3380423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32574,12 +32575,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797552893}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 3.3469144e-23, y: -0.031240355, z: -1.0460986e-24, w: 0.99951196}
+  m_LocalPosition: {x: 7.195, y: -3.067, z: 43.488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 253303346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1799834297
 PrefabInstance:
@@ -36704,5 +36705,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 466372688}
   - {fileID: 468237629}
-  - {fileID: 1797552895}
   - {fileID: 1487281516}
